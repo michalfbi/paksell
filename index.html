@@ -3,104 +3,77 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PAK-SELL | Ekskluzywne Boxy Wędliniarskie</title>
+    <title>PAK-SELL | Tradycyjne Wędliny z Rodzinnej Wędzarni</title>
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&family=Playfair+Display:ital,wght@0,600;1,400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,700;1,400&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header>
-        <div class="header-container">
+    <div class="page-wrapper">
+        <header>
+            <div class="ornament top-ornament">
+                <svg viewBox="0 0 100 10" preserveAspectRatio="none" fill="none" stroke="#C4413E" stroke-width="1"><path d="M0,5 Q25,0 50,5 T100,5"/></svg>
+            </div>
             <img src="logo.png" alt="Logo PAK-SELL" class="logo">
-            <nav>
-                <a href="#kolekcja">Kolekcja</a>
-                <a href="#jakosc">Jakość</a>
-                <a href="#kontakt">Kontakt</a>
-            </nav>
-        </div>
-    </header>
-    
-    <main>
-        <section class="hero">
-            <div class="hero-content">
-                <span class="subtitle">TRADYCJA I NOWOCZESNOŚĆ</span>
-                <h1>Sztuka<br>Wędliniarska<br>w <em>Boxie.</em></h1>
-                <p>Odkryj wyselekcjonowane kompozycje smaków. Czysta forma, bezkompromisowa jakość, dostawa prosto pod Twoje drzwi.</p>
-                <a href="#kolekcja" class="btn-primary">ZOBACZ KOLEKCJĘ</a>
-            </div>
-            <div class="hero-shapes">
-                <div class="shape oval-solid"></div>
-                <div class="shape oval-outline"></div>
-            </div>
-        </section>
+            <p class="tagline">Tradycja Smaku od Pokoleń</p>
+        </header>
+        
+        <main>
+            <section class="intro">
+                <h1>Prawdziwe Wędliny<br>w Wyjątkowych Zestawach</h1>
+                <p>Przywracamy smaki, które pamiętasz z dzieciństwa. Nasze boxy to starannie dobrane kompozycje wędlin, tworzone według starych, sprawdzonych receptur. Bez pośpiechu, z szacunkiem do rzemiosła.</p>
+            </section>
 
-        <section id="kolekcja" class="collection">
-            <div class="section-header">
-                <h2>Kolekcja Signatures</h2>
-                <div class="divider"></div>
-            </div>
-            
-            <div class="cards-container">
-                <div class="card">
-                    <div class="card-icon">
-                        <svg viewBox="0 0 24 24" fill="none" stroke="#C4413E" stroke-width="1" stroke-linecap="round" stroke-linejoin="round">
-                            <path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"></path>
-                            <polyline points="3.27 6.96 12 12.01 20.73 6.96"></polyline>
-                            <line x1="12" y1="22.08" x2="12" y2="12"></line>
-                        </svg>
+            <section class="menu-board">
+                <div class="menu-board-inner">
+                    <h2>Nasza Oferta Boxów</h2>
+                    <div class="menu-divider"></div>
+
+                    <div class="menu-item">
+                        <div class="menu-item-header">
+                            <h3>Box Staropolski</h3>
+                            <span class="price">129 zł</span>
+                        </div>
+                        <p class="menu-item-desc">Klasyka gatunku. Kiełbasa wiejska, szynka wędzona dymem olchowym, tradycyjny boczek.</p>
                     </div>
-                    <h3>Box Classic</h3>
-                    <p class="desc">Podstawa polskiej tradycji. Klasyczne smaki w eleganckim wydaniu.</p>
-                    <div class="price">129 PLN</div>
-                </div>
 
-                <div class="card card-featured">
-                    <div class="card-icon">
-                        <svg viewBox="0 0 24 24" fill="none" stroke="#ffffff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
-                            <path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"></path>
-                            <polyline points="3.27 6.96 12 12.01 20.73 6.96"></polyline>
-                            <line x1="12" y1="22.08" x2="12" y2="12"></line>
-                            <polygon points="12 2 15 8 22 9 17 14 18 21 12 17.5 6 21 7 14 2 9 9 8 12 2" fill="none" stroke="#ffffff" opacity="0.3"></polygon>
-                        </svg>
+                    <div class="menu-item">
+                        <div class="menu-item-header">
+                            <h3>Box Półmisek Gospodarza</h3>
+                            <span class="price">159 zł</span>
+                        </div>
+                        <p class="menu-item-desc">Sygnowany naszym znakiem jakości. Starannie selekcjonowane polędwiczki, kabanosy i pieczony schab.</p>
                     </div>
-                    <h3>Box Premium</h3>
-                    <p class="desc">Nasza flagowa selekcja. Najwyższej klasy dojrzewające specjały.</p>
-                    <div class="price">189 PLN</div>
-                </div>
 
-                <div class="card">
-                    <div class="card-icon">
-                        <svg viewBox="0 0 24 24" fill="none" stroke="#C4413E" stroke-width="1" stroke-linecap="round" stroke-linejoin="round">
-                            <path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"></path>
-                            <polyline points="3.27 6.96 12 12.01 20.73 6.96"></polyline>
-                            <line x1="12" y1="22.08" x2="12" y2="12"></line>
-                        </svg>
+                    <div class="menu-item">
+                        <div class="menu-item-header">
+                            <h3>Box Rodzinna Biesiada</h3>
+                            <span class="price">189 zł</span>
+                        </div>
+                        <p class="menu-item-desc">Duży zestaw na wspólny stół. Bogactwo smaków z myślą o dzieleniu się z najbliższymi.</p>
                     </div>
-                    <h3>Box Degustacyjny</h3>
-                    <p class="desc">Idealny na prezent. Odkryj paletę różnorodnych smaków naszego regionu.</p>
-                    <div class="price">159 PLN</div>
                 </div>
-            </div>
-        </section>
+            </section>
 
-        <section id="kontakt" class="cta-section">
-            <div class="cta-box">
-                <h2>Osobisty Doradca PAK-SELL</h2>
-                <p>Zadzwoń do nas. Pomożemy skomponować idealny zestaw dopasowany do Twoich potrzeb.</p>
-                <a href="tel:+48000000000" class="btn-call">
-                    <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
-                    +48 000 000 000
-                </a>
-            </div>
-        </section>
-    </main>
+            <section class="order-section">
+                <h2>Złóż Zamówienie</h2>
+                <p>Porozmawiajmy o smakach. Zadzwoń do nas, a przygotujemy box idealny na Twój stół.</p>
+                <div class="phone-wrapper">
+                    <a href="tel:+48000000000" class="btn-phone">
+                        <span class="phone-icon">☎</span> Zadzwoń: +48 000 000 000
+                    </a>
+                </div>
+                <p class="working-hours">Codziennie w godzinach 8:00 - 16:00</p>
+            </section>
+        </main>
 
-    <footer>
-        <div class="footer-content">
-            <p>&copy; 2026 PAK-SELL. Wszelkie prawa zastrzeżone.</p>
-            <p class="small-text">Sztuka wędliniarska na najwyższym poziomie.</p>
-        </div>
-    </footer>
+        <footer>
+            <div class="ornament bottom-ornament">
+                <svg viewBox="0 0 100 10" preserveAspectRatio="none" fill="none" stroke="#C4413E" stroke-width="1"><path d="M0,5 Q25,10 50,5 T100,5"/></svg>
+            </div>
+            <p>&copy; 2026 PAK-SELL. Prawdziwy smak rzemiosła.</p>
+        </footer>
+    </div>
 </body>
 </html>
