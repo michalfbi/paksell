@@ -3,22 +3,126 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PAK-SELL - Boxy Wędlin na zamówienie</title>
+    <title>PAK-SELL - Tradycyjne Wędliny w Nowoczesnym Boxie</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
-        <img src="logo.png" alt="Logo PAK-SELL" class="logo">
+        <div class="header-container">
+            <img src="logo.png" alt="Logo PAK-SELL" class="logo">
+            <nav>
+                <a href="#">STREFA BOXÓW</a>
+                <a href="#">O NAS</a>
+                <a href="#">KONTAKT</a>
+                <a href="#">KOSZYK</a>
+            </nav>
+        </div>
     </header>
     
     <main>
-        <h1>Tradycyjne wędliny w specjalnych Boxach!</h1>
-        <p>Zamów nasz wyselekcjonowany zestaw. Gwarantujemy najwyższą jakość, świeżość i niezapomniany smak prosto na Twój stół.</p>
-        
-        <div class="order-box">
-            <p class="order-text">Szybkie zamówienia telefoniczne:</p>
-            <a href="tel:+48000000000" class="btn-call">📞 Zadzwoń: 000 000 000</a>
-        </div>
+        <section class="hero">
+            <div class="hero-content">
+                <h1>TRADYCYJNE WĘDLINY W NOWOCZESNYM BOXIE.</h1>
+                <p>Odkryj wyselekcjonowaną selekcję premium prosto na Twój stół.</p>
+                <a href="#boxy" class="btn-hero">SPRAWDŹ NASZE BOXI</a>
+            </div>
+            <div class="hero-image">
+                <img src="hero-image.jpg" alt="PAK-SELL Wędliny Box">
+            </div>
+        </section>
+
+        <section id="boxy" class="boxy-section">
+            <div class="boxy-container">
+                <div class="box-card">
+                    <img src="box-pl.jpg" alt="Tradycyjny Polski Box">
+                    <div class="box-info">
+                        <h2>Tradycyjny Polski</h2>
+                        <ul>
+                            <li>Tradycyjna receptura</li>
+                            <li>Lokalne pochodzenie</li>
+                            <li>Porwano smato</li>
+                            <li>Bonkonser samat</li>
+                            <li>Szybka dostawa</li>
+                        </ul>
+                        <p class="price">129,90 zł</p>
+                        <a href="#" class="btn-order">ZAMÓW</a>
+                    </div>
+                </div>
+                
+                <div class="box-card">
+                    <img src="box-gourmet.jpg" alt="Gourmet Selekcja Box">
+                    <div class="box-info">
+                        <h2>Gourmet Selekcja</h2>
+                        <ul>
+                            <li>Tradycyjna receptura</li>
+                            <li>Gourmet Selekcja</li>
+                            <li>Lokalne selekcje</li>
+                            <li>Bez konserwantów</li>
+                            <li>Świeżość i mamć'arae</li>
+                        </ul>
+                        <p class="price">139,90 zł</p>
+                        <a href="#" class="btn-order">ZAMÓW</a>
+                    </div>
+                </div>
+
+                <div class="box-card">
+                    <img src="box-reg.jpg" alt="Regionu Smak Box">
+                    <div class="box-info">
+                        <h2>Regionu Smak</h2>
+                        <ul>
+                            <li>Tradycyjna renatu</li>
+                            <li>Lokalne pochodzenie</li>
+                            <li>Roregjunu smak</li>
+                            <li>Bez konserwantów</li>
+                            <li>Szybka dostawa dostawa</li>
+                        </ul>
+                        <p class="price">139,90 zł</p>
+                        <a href="#" class="btn-order">ZAMÓW</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="features">
+            <h3>Dlaczego PAK-SELL</h3>
+            <div class="features-container">
+                <div class="feature-item">
+                    <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9IiNDNDQxM0UiIHN0cm9rZS13aWR0aD0iMS41IiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiPjxwYXRoIGQ9Ik00LjUgMjAuNjU2bDUuNzg3LTUuNzg3YTMuMTgyIDMuMTgyIDAgMCAxIDQuNDk5IDAiLz48cGF0aCBkPSJNMTIgMTEuNzY5bDUuNzg3LTUuNzg3YTMuMTgyIDMuMTgyIDAgMCAwIDAgNC40OTlsLTUuNzg3IDUuNzg3YTMuMTgyIDMuMTgyIDAgMCAwIDAgNC40OTliLTUuNzg3IDUuNzg3YTMuMTgyIDMuMTgyIDAgMCAwIDAiLz48L3N2Zz4=" alt="Tradycyjna receptura">
+                    <h4>Tradycyjna receptura</h4>
+                    <p>Tradycyjna receptura najwyższej jakości.</p>
+                </div>
+                <div class="feature-item">
+                    <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9IiNDNDQxM0UiIHN0cm9rZS13aWR0aD0iMS41IiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiPjxwYXRoIGQ9Ik0xMiAyQzcuMzg1IDIgMy43NyA1LjYxNSAzLjc3IDEwYy4wMSAyLjk2IDEuNjggNi4xNSAzLjc3IDguOTRMMTIgMjJsNC40Ni0zLjA2Yy4wMS0uMDEgMy43Ny00LjUzIDMuNzctOC45NEMxOS43NyA1LjYxNSAxNi42MTUgMiAxMiAyem0wIDE0YTMgMyAwIDAgMSAwLTYgMyAzIDAgMCAxIDAgNnoiLz48L3N2Zz4=" alt="Lokalne pochodzenie">
+                    <h4>Lokalne pochodzenie</h4>
+                    <p>Współpracujemy z lokalnymi dostawcami w regionie.</p>
+                </div>
+                <div class="feature-item">
+                    <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9IiNDNDQxM0UiIHN0cm9rZS13aWR0aD0iMS41IiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiPjxwYXRoIGQ9Ik05Ljc1IDE5LjVsLTEuMjUuMjVoLTYuNXYtMTNsNi41LS4yNWwuMjUgMS4yNU0xMC41IDE0LjVWMjA4LjA5MmwzLjk3My45MzVBNC41IDQuNSAwIDAgMSAxNSAyMEg5bC0zLTQuNXZNMTkuNSAxOS41djNsNi41LS4yNU0xMC41IDkuNXYtMWwtLjI1LTUuNXYtM2gtNnY4bDIuMjUtMS4yNXoiLz48L3N2Zz4=" alt="Bez konserwantów">
+                    <h4>Bez konserwantów</h4>
+                    <p>Nasze wędliny nie zawierają konserwantów.</p>
+                </div>
+                <div class="feature-item">
+                    <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9IiNDNDQxM0UiIHN0cm9rZS13aWR0aD0iMS41IiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiPjxwYXRoIGQ9Ik00LjU5NiAxNmwuOTc3LjlhNC41IDQuNSAwIDAgMS0uMzM4IDYuNjI3bC43OC43OGM4LjY0NS04LjY0NiA4LjY0Ni04LjY0NiA4LjY0NS04LjY0NmwuNzgtLjc4YTQuNSA0LjUgMCAwIDEsIDYuNjI3LS4zMzhsLjktLjk3N2wtNi42MjctLjMzOE0xOC40MDUgOWwtMy4wOTMtNS4yODVBNC41IDQuNSAwIDAgMSAxNSA4LjhIM0w4LjggMTUiLz48L3N2Zz4=" alt="Szybka dostawa">
+                    <h4>Szybka dostawa</h4>
+                    <p>Szybka dostawa Twojego Boxu na Twoje stół.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="order-phone">
+            <div class="order-phone-container">
+                <h3>ZAMÓW SWÓJ BOX DZISIAJ TELEFONICZNIE.</h3>
+                <p>Nasi konsultanci pomogą Ci dobrać idealny Box dla Twojej rodziny.</p>
+                <a href="tel:+48000000000" class="btn-phone">📞 +48 000 000 000</a>
+            </div>
+        </section>
     </main>
+
+    <footer>
+        <p>PAK-SELL | ul. Przykładowa 1, 00-000 Miasto | +48 000 000 000 | biuro@paksell.pl</p>
+    </footer>
 </body>
 </html>
